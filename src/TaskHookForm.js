@@ -86,7 +86,7 @@ export default function TaskHookForm({ kisiler, submitFn }) {
           ))}
         </div>
         {errors.people && (
-          <p className="input-error">{errors.people.message}</p>
+          <p className="input-error ">{errors.people.message}</p>
         )}
       </div>
 

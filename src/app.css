@@ -132,10 +132,11 @@
   cursor: pointer;
 }
 
+
 .input-label {
-  font-size: 14px;
-  display: block;
-  padding-bottom: 6px;
+  @apply text-sm
+  block 
+  pb-1.5
 }
 
 .input-error {
